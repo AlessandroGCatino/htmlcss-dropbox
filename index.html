@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <!-- REMINDER -->
-<!-- TODO indici dell'header all'hover hanno bordo inferiore -->
-<!-- TODO pulsanti blu diventano più chiari all'hover, FORSE OPACITA' DIMINUITA -->
-<!-- TODO pulsanti bianchi come pulsanti blu all'hover -->
+<!-- -FATTO- indici dell'header all'hover hanno bordo inferiore -->
+<!-- NOTE -FATTO- pulsanti blu diventano più chiari all'hover -->
+<!-- NOTE -FATTO- pulsanti bianchi come pulsanti blu all'hover -->
 <!-- TODO nella sezione "designIt" le immagini sono in quadrati colorati
      e la centrale ha un overflow scroll nel caso di ridimensionamento-->
 <!-- TODO la freccia nera deve portare alla sezione direttamente successiva -->
@@ -44,16 +45,38 @@
 
         <!-- pulsante BLU inizia -->
 
-        <button class="ext-button blu">Inizia</button>
+        <button class="ext-button blue">Inizia</button>
     
     </header>
     <main>
         <!-- sezione superiore -->
-            <!-- h1 GIGANTE -->
-            <!-- contenitore flexato con due container -->
-                <!-- un p, bottone BLU prova gratuita e span annulla : 40%-->
-                <!-- figure con heigth 160% : 60%-->
-            <!-- pulsante NERO a che contiene freccia che porta alla sezione successiva -->
+            <section class="intro-section">
+                <!-- h1 GIGANTE -->
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <!-- contenitore flexato con due container -->
+                <div>
+                    <!-- p, bottone BLU prova gratuita e span annulla : 40%-->
+                    <div class="left-intro">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e
+                        collaboratori sono accessibili dallo stesso posto.
+                        Dropbox Business è più di uno spazio di
+                        archiviazione sicuro: è un modo intelligente e
+                        integrato per ottimizzare il flusso di lavoro
+                        esistente.</p>
+                        <button class="ext-button blue">Inizia la tua prova gratuita</button>
+                        <span>Annulla in qualsiasi momento</span>
+                        <button class="arrow-down"><i class="fa-solid fa-arrow-down"></i></button>
+
+                    </div>
+                    <figure>
+                        <img src="./assets/img/jumbo.png" alt="">
+                    </figure>
+                        <!-- figure con heigth 160% : 60%-->
+                </div>
+                <!-- pulsante NERO a che contiene freccia che porta alla sezione successiva -->
+
+
+            </section>
         <!-- fine sezione superiore -->
 
         <!-- contenitore flexato column e con classe per posizionamento centrale -->
