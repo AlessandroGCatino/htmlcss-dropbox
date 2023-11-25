@@ -66,7 +66,7 @@
                         <button class="ext-button blue">Inizia la tua prova gratuita</button>
                         <span>Annulla in qualsiasi momento</span>
                         <!-- pulsante NERO a che contiene freccia che porta alla sezione successiva -->
-                        <button class="arrow-down"><i class="fa-solid fa-arrow-down"></i></button>
+                        <a href="#business"><button class="arrow-down"><i class="fa-solid fa-arrow-down"></i></button></a>
 
                     </div>
                     <figure>
@@ -80,13 +80,13 @@
 
         <!-- contenitore flexato column e con classe per posizionamento centrale -->
             <section class="middle-section container">
-            <!-- sezione acquisti -->
-                <section class="business-container"></section>
-                <!-- h2 trova il piano business -->
-                <h2>Trova il piano business che fa per te</h2>
-
-                <!-- NOTE capire se fare radio o due span con pallini -->
-                <div class="fake-radio">
+                <!-- ANCHOR business -->
+                <section id="business" class="business">
+                    <!-- h2 trova il piano business -->
+                    <h2>Trova il piano business che fa per te</h2>
+                    <!-- sezione acquisti -->
+                    <!-- NOTE capire se fare radio o due span con pallini -->
+                    <div class="fake-radio">
                     <ul>
                         <li>
                             <span class="selected"></span>
@@ -102,15 +102,177 @@
                     <!-- <label class="selettore inner-sel">Fatturazione mensile</label> -->
                     <!-- <input type="radio" id="annuale" name="fatturazione"> -->
                     <!-- <label class="selettore inner-sel">Fatturazione annuale</label> -->
-                </div>
+                    </div>
+                    <div class="piani-fatturazione">
+                        <!-- ANCHOR "Professional" -->
+                        <div class="card-fatt">
+                            <div class="intestazione">
+                                <i class="fa-solid fa-user"></i>
+                                <label>Singolo</label>
+                            </div>
+                            <div class="card-detail">
+                                <div class="pay-type">
+                                    <h3>Professional</h3>
+                                    <span><strong>€ 12.00</strong></span>
+                                    <span>/mese</span>
+                                </div>
+                                <div class="pay-type desc">
+                                    <ul>
+                                        <li> 1 utente</li>
+                                        <li> 5 TB di spazio di archiviazione sicuro</li>
+                                        <li> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                    </ul>
+                                </div>
+                                <div class="pay-type">
+                                    <button class="ext-button blue">Prova gratis per 30 giorni</button>
+                                    <span>oppure <a href="">acquista ora</a></span>
+                                </div>
+                                <hr>
+                                <div class="pay-type">
+                                    <h4>Punti Salienti del piano</h4>
+                                    <ul>
+                                        <li> Invia file fino a 100 GB con Dropbox Tranfert</li>
+                                        <li> Cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                    <!-- <span><i class="fa-solid fa-check"></i></span>-->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ANCHOR "Advanced" -->
+                        <div class="card-fatt">
+                            <div class="intestazione">
+                                <i class="fa-solid fa-users"></i>
+                                <label>Team</label>
+                            </div>
+                            <div class="card-detail">
+                                <div class="pay-type">
+                                    <h3>Advanced</h3>
+                                    <span><strong>€ 18.00</strong></span>
+                                    <span>/utente/mese</span>
+                                </div>
+                                <div class="pay-type desc">
+                                    <ul>
+                                        <li> 3 o più utenti</li>
+                                        <li> Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                        <li> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                                    </ul>
+                                </div>
+                                <div class="pay-type">
+                                    <button class="ext-button blue">Prova gratis per 30 giorni</button>
+                                    <span>oppure <a href="">acquista ora</a></span>
+                                </div>
+                                <hr>
+                                <div class="pay-type">
+                                    <h4>Punti Salienti del piano</h4>
+                                    <ul>
+                                        <li> Nessun limite di spazio per i file</li>
+                                        <li> Cartelle offline su dispositivi mobili</li>
+                                        <li> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                        <li> Possibilità di inserire nuovi membri del team</li>
+                                        <li> Gestione dei permessi in base ai ruoli</li>
+                                    </ul>
+                                    <!-- <span><i class="fa-solid fa-check"></i></span>-->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ANCHOR "Enterprise" -->
+                        <div class="card-fatt">
+                            <div class="intestazione">
+                                <i class="fa-solid fa-building"></i>
+                                <label>Azienda</label>
+                            </div>
+                            <div class="card-detail">
+                                <div class="pay-type">
+                                    <h3>Enterprise</h3>
+                                    <span><strong>Contattaci</strong></span>
+                                    <span>-</span>
+                                </div>
+                                <div class="pay-type desc">
+                                    <ul>
+                                        <li> 10 o più utenti</li>
+                                        <li> Soluzioni personalizzabili per la tua azienda</li>
+                                        <li> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                                    </ul>
+                                </div>
+                                <div class="pay-type">
+                                    <button class="ext-button blue">Contattaci</button>
+                                    <span>oppure <a href="">acquista ora</a></span>
+                                </div>
+                                <hr>
+                                <div class="pay-type">
+                                    <h4>Punti Salienti del piano</h4>
+                                    <ul>
+                                        <li> Nessun limite di spazio per i file</li>
+                                        <li> Cartelle offline su dispositivi mobili</li>
+                                        <li> Cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                    <!-- <span><i class="fa-solid fa-check"></i></span>-->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-fatt large-card">
+                            <div class="intestazione">
+                                <i class="fa-solid fa-building"></i>
+                                <label>Team</label>
+                            </div>
+                            <div class="card-detail">
 
+                                <div class="pay-type large">
+                                    <div>
+                                        <h3>Enterprise</h3>
+                                        <br>
+                                        <strong>Contatta l'ufficio vendite per i prezzi</strong>
+                                    </div>
+                                    <div>
+                                        <button class="ext-button blue"> Contatta l'ufficio vendite</button>
+                                    </div>
+                                </div>
+                                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>    
+                            </div>
+                        </div>
+                </section>
+                <!-- ANCHOR partner -->
+                <section class="partner">
+                    <figure>
+                        <img src="./assets/img/partner.png" alt="">
+                    </figure>
+                    <div>
+                        <h2>Entra in contatto con un partner Dropbox</h2>
+                        <p>Trova un partner Dropbox e HelloSign
+                            di fiducia. Ottieni le soluzioni e i servizi
+                            necessari per raggiungere i tuoi obiettivi
+                            aziendali, tra cui implementazione,
+                            integrazione, gestione e supporto
+                            continui.</p>
+                        <button class="ext-button white">Trova un partner</button>
+                    </div>
+                </section>
 
-
-
-                
-                <!-- contenitore con 3 card -->
-                <!-- contenitore grosso Enterprise -->
-            <!-- fine sezione -->
+                <section class="functions">
+                    <h2>Esegui più operazioni con Dropbox Business</h2>
+                    <div class="function-details">
+                        
+                    </div>
+                    <div class="function-details">
+                        
+                    </div>
+                    <div class="function-details">
+                        
+                    </div>
+                    <div class="function-details">
+                        
+                    </div>
+                    <div class="function-details">
+                        
+                    </div>
+                    <div class="function-details">
+                        
+                    </div>
+                </section>
 
             <!-- sezione entra in contatto -->
                 <!-- figure : 60% -->
@@ -130,8 +292,11 @@
                 <!-- h2 "dropbox business" -->
                 <!-- link -->
             <!-- fine sezione breve -->
-        </section>
+            </section>
         <!-- fine contenitore -->
+
+
+            </section>
         
         <!-- contenitore flexato col  -->
             <!-- contenitore loghi aziende flexato e width 100%/3 per gli elementi :60% -->
