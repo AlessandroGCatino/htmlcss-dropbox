@@ -149,13 +149,13 @@ header{
 .middle-section{
     margin-top: 120px;
     display: flex;
-    height: 3000px;
+    height: 10000px;
     flex-direction: column;
     gap: 200px;
 }
 
 .middle-section h2{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .business{
@@ -374,9 +374,24 @@ header{
 
 .function-details{
     width: calc(100%/3 - 2%);
-    height: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
 }
 
+
+.function-details img{
+    width: 100%;
+
+}
+
+/* ANCHOR clients */
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
