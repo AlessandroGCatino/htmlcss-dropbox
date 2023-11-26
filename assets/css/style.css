@@ -3,19 +3,12 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 list-style-type: none;
-/* border: 1px solid black; */
-
 }
 
 html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#test{
-    background-color: red;
-    height: 50px;
-    width: 50px;
-}
 
 /* ANCHOR classi generiche */
 
@@ -79,7 +72,7 @@ header{
 .header-menu{
     display: flex;
     gap: 20px;
-    padding-inline: 10px;
+    padding-inline: 30px;
 
 }
 
@@ -87,18 +80,18 @@ header{
     position: relative;
 }
 
-.header-menu li:hover:after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        left: 0;
-        bottom: -20px;
-        border-bottom: 3px solid grey;
-      }
+.header-menu li:hover:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0;
+    bottom: -25px;
+    border-bottom: 3px solid grey;
+}
 
 /* CSS MAIN */
 
-/* ANCHOR prima sezione */
+/* ANCHOR INTRO SECTION */
 .intro-section{
     margin-top: 65px;
     padding-inline:20%;
@@ -148,20 +141,13 @@ header{
     display: block;
 }
 
-/* ANCHOR main section */
+/* ANCHOR content section */
 
 .content-section{
     margin-block: 120px;
     display: flex;
     flex-direction: column;
     gap: 150px;
-}
-
-.business{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 50px;
 }
 
 /* ANCHOR radio */
@@ -207,8 +193,14 @@ header{
     border-radius: 50%;
     background-color: white;
 }
+/* ANCHOR business section */
 
-/* ANCHOR cards */
+.business{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
 
 .piani-fatturazione{
     display: flex;
@@ -312,6 +304,8 @@ header{
     color:#0061ff;
 }
 
+/* large card */
+
 .large-card{
     width: 100%;
     align-items: center;
@@ -383,7 +377,6 @@ header{
 
 .function-details img{
     width: 100%;
-
 }
 
 /* ANCHOR clients */
@@ -395,8 +388,6 @@ header{
 }
 
 /* ANCHOR affiliates */
-
-
 
 .brands{
     display: flex;
@@ -411,11 +402,13 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+
 .side-brands>figure{
     width: 50%;
     position: relative;
     padding-bottom: 50%;
 }
+
 .side-brands figure img{
     position: absolute;
     display: block;
@@ -488,16 +481,19 @@ header{
     padding-block: 110px;
     background-color: #b4d0e7;
 }
+
 .free-trial .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
+
 .free-trial h2{
     width: 50%;
     color: #61082b;
 }
+
 .free-trial button{
     font-size: 20px;
     padding: 10px 30px;
@@ -514,9 +510,6 @@ header{
     border-bottom: 1px solid lightgray;
     padding-block: 35px;
     position: relative;
-    /* padding: 36px 30px 36px 0px;
-    display: flex;
-    justify-content: space-between; */
 }
 
 .faq div i{
@@ -537,3 +530,54 @@ header{
 
 
 /* ANCHOR FOOTER */
+
+footer{
+    height: 500px;
+    background-color: black;
+    color: white;
+    padding: 50px 15%;
+}
+
+footer nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+footer h3{
+    margin-block: 10px;
+}
+
+footer li{
+    line-height: 35px;
+    font-size: 90%;
+}
+
+footer li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+footer hr{
+    border: 1px solid #222222;
+    width: 10%;
+    margin-block: 30px;
+}
+
+footer span{
+    color: grey;
+}
+
+footer span::before{
+    content: "\f57d";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+footer span::after{
+    content: "\f0d8";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+}
