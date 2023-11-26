@@ -149,7 +149,6 @@ header{
 .middle-section{
     margin-top: 120px;
     display: flex;
-    height: 10000px;
     flex-direction: column;
     gap: 200px;
 }
@@ -394,4 +393,64 @@ header{
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+/* ANCHOR affiliates */
+
+.affiliates{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%/3);
+}
+.brands figure{
+    width: 50%;
+    display: flex;
+    position: relative;
+    padding-bottom: 50%;
+}
+.brands figure img{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#designIt{
+    background-color: #a2d39b;
+}
+
+#asu{
+    background-color: #61082b;
+}
+
+#uniFlo{
+    background-color: #0093ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
+
+#wbr{
+    background-color: #d5001f;
+}
+
+#hearst{
+    background-color: #b4d0e7;
+}
+
+#lonelyPlanet{
+    background-color: #0d2481;
+}
+
+#clearCh{
+    background-color: #ffd830;
 }
