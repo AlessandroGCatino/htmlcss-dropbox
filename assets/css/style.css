@@ -27,6 +27,10 @@ main{
     margin: 0 auto;
 }
 
+h2{
+    font-size: 35px;
+}
+
 .ext-button{
     padding: 6px 10px;
     border: none;
@@ -156,9 +160,7 @@ header{
     gap: 200px;
 }
 
-.middle-section h2{
-    font-size: 35px;
-}
+
 
 .business{
     display: flex;
@@ -486,4 +488,23 @@ header{
     filter: opacity(.2);
 }
 
+/* ANCHOR free trial */
 
+.free-trial{
+    padding-block: 110px;
+    background-color: #b4d0e7;
+}
+.free-trial .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.free-trial h2{
+    width: 50%;
+    color: #61082b;
+}
+.free-trial button{
+    font-size: 20px;
+    padding: 10px 30px;
+}
