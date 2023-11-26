@@ -10,6 +10,9 @@ list-style-type: none;
 html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+main{
+    height: 10000px;
+}
 
 #test{
     background-color: red;
@@ -265,6 +268,7 @@ header{
 .card-detail hr{
     width: 20%;
     border-color: lightgray;
+    filter: opacity(.5);
 }
 
 
@@ -400,33 +404,36 @@ header{
 .affiliates{
     display: flex;
     margin-top: 100px;
-    justify-content: space-between;
+    max-height: 40vw;
 }
 
-.brands{
-    display: flex;
-    flex-wrap: wrap;
+.affiliates>div{
     width: calc(100%/3);
 }
-.brands figure{
-    width: 50%;
+
+.side-brands{
     display: flex;
+    flex-wrap: wrap;
+}
+.side-brands>figure{
+    min-width: 50%;
     position: relative;
     padding-bottom: 50%;
 }
-.brands figure img{
+.side-brands figure img{
     position: absolute;
+    display: block;
     width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
     color: white;
 }
-
+/* ANCHOR logo backgrounds */
 #designIt{
     background-color: #a2d39b;
 }
-
 #asu{
     background-color: #61082b;
 }
@@ -454,3 +461,29 @@ header{
 #clearCh{
     background-color: #ffd830;
 }
+
+/* ANCHOR brand centrale */
+.center-brand{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 33%;
+    padding: 30px;
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+
+.center-brand svg{
+    display: block;
+    width: 50%;
+}
+
+.center-brand hr{
+    display: block;
+    width: 30%;
+    height: 1px;
+    border-color: lightgray;
+    filter: opacity(.2);
+}
+
+
