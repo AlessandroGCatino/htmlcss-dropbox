@@ -85,7 +85,7 @@ header{
     content: "";
     width: 100%;
     left: 0;
-    bottom: -25px;
+    bottom: -20px;
     border-bottom: 3px solid grey;
 }
 
@@ -93,7 +93,7 @@ header{
 
 /* ANCHOR INTRO SECTION */
 .intro-section{
-    margin-top: 65px;
+    margin-top: 60px;
     padding-inline:20%;
     padding-block: 10px; 
     background-color: #b4d0e7;
