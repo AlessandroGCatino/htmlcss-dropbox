@@ -421,8 +421,17 @@ header{
 }
 /* ANCHOR logo backgrounds */
 #designIt{
-    background-color: #a2d39b;
+    background-color: #d1e9cd;
 }
+#designIt .square{
+    position: absolute;
+    background-color: #a2d39b;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+
 #asu{
     background-color: #61082b;
 }
